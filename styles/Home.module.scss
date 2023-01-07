@@ -1,15 +1,28 @@
 .bgMain{
-    background-color: #212121;
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     h1{
+        font-style: normal;
         font-weight: 600;
-        font-size: 56px;
-        line-height: 84px;
-        color:white;
+        font-size: 44px;
+        line-height: 110%;
+        color: #0C0D15;
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+    }
+    h4{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 160%;
+        color: #565660;
         text-align: center;
+        font-feature-settings: 'liga' off;
+        width: 35%;
     }
 }
