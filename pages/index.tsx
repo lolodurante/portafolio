@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 
-
 export default function Home() {
-  const t = "hola"
   return (
     <>
       <Head>
@@ -14,8 +12,11 @@ export default function Home() {
       </Head>
       <div className={styles.bgMain}>
         <h1>
-          I'm a developer specializing in frontend development. 
+          Lorenzo Durante
         </h1>
+        <h4>
+          19 year old frontend developer, React developer and computer science student based in Buenos Aires, Argentina.
+        </h4>
       </div>
     </>
   )
